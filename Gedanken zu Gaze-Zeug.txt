@@ -1,5 +1,12 @@
 ALSO:
 
+-> Solches Zeug sollte wohl auch in die BA, also was die Grundlagen sind und wie sie ausgebaut wurden.
+
+
+FESTSTELLUNG: FRAGMENTS BENUTZT WOHL DEN DIRECTIONINDICATOR UND VERÄNDERT DEN CURSOR, WENN AUF ETWAS GEZEIGT WIRD. GAH.
+-> Adaptive Cursor Klasse erstellen, oder so? Gesteuert über Managers? Und dann für Visualisierung halt einfach  DirectionIndicator mit größerer Anpassungsmöglichkeit?
+
+
 Pointer wird erstmal so übernommen, tatsächliche Erfassung geschieht trotzdem im Manager, über RayCast, wie beim Austronauten.
 Pro: 
 - Gleiche Struktur wie bei Movement
@@ -13,7 +20,7 @@ Con:
 
 
 Frage: Wie kann ich Eigenanteil haben?
--> Inspiration con Fragments:
+-> Inspiration von Fragments:
 	- Hinter dem Pointer noch ein Symbol/Text, was sich nicht mitdreht
 	- Fragments-Stil: Pointer (oder Text?) in der Mitte des Bildschirms, auch wenn Objekt schon zu sehen ist, Pointer selbst wird ausgeblendet wenn, der RayCast trifft, (Text wird grün oder so)
 	- Lerpen oder so? Irgendwo stand, dass das besser ist als statisches HUD (müsste früh in der Academy gewesen sein, evtl beim Astronauten)
