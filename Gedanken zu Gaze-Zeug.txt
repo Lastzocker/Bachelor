@@ -12,9 +12,10 @@ Con:
 - Collider fressen Performance, wären bei Punkt-basiertem nicht nötig
 
 
-Nachricht:
-
-Hallo Roland, 
-ich bin jetzt dabei, die Mechanismen in Unity umzusetzen. 
-Dabei ist es so, dass viele der Sachen für die HoloLens schon gemacht wurden und der Code vorliegt.
-Es wird natürlich ein gewisser Eigenanteil erwartet, aber ich denke, es ist auch nicht sinnvoll, das Rad neu zu erfinden. Wie würdest du mir raten, vorzugehen?
+Frage: Wie kann ich Eigenanteil haben?
+-> Inspiration con Fragments:
+	- Hinter dem Pointer noch ein Symbol/Text, was sich nicht mitdreht
+	- Fragments-Stil: Pointer (oder Text?) in der Mitte des Bildschirms, auch wenn Objekt schon zu sehen ist, Pointer selbst wird ausgeblendet wenn, der RayCast trifft, (Text wird grün oder so)
+	- Lerpen oder so? Irgendwo stand, dass das besser ist als statisches HUD (müsste früh in der Academy gewesen sein, evtl beim Astronauten)
+-> Das schon überlegte: Target löst etwas aus, Pointer und Target verschwinden
+-> Evtl. mehrere Targets im Raum, einzelner Pointer zeigt zum nächsten?
