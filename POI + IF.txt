@@ -1,0 +1,16 @@
+wählbar 2D/3D
+
+Tickrate-Variable
+
+Camera x und z bzw. x y z mit eigenen vergleichen
+
+Struct GameObject + float MinProximity + MaxProximity
+-> GameObject 
+
+Liste von Struct, geordnet nach MinProximity (beim Start evtl. selbst ordnen (bool?))
+
+Evtl. statt GameObjects UnityEvents
+
+GameObjects in Struct heißt, man kann deren Distanz nehmen (dann aber nicht die Suche abbrechen nach MinProximity)
+-> Andere Möglichkeit ist Liste von Struct mit je [einem GameObject (oder transform?) und Listen von Struct Min, Max und Events]
+-> Entschieden für Platzierung auf einem Objekt statt global als Singleton. Performance-Einsparung ist wahrscheinlich nicht so riesig und man muss sonst gucken, dass man sich registriert etc. (v.a., wenn dynamisch gespawnt wird)
